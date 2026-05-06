@@ -1,0 +1,117 @@
+{
+  "schema": "arc.streammemory.frame_index.v1",
+  "session_id": "stream_2be43a729d6d5322",
+  "title": "ARC-StreamMemory demo visual memory",
+  "created_at": "2026-05-06T14:15:00+00:00",
+  "frame_count": 12,
+  "frames": [
+    {
+      "frame_id": "frame_000001",
+      "path": "frames/frame_000001.png",
+      "index": 1,
+      "timestamp_ms": 0,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:ef0cf323747ef26eb08ba0f5f3e75602049a864150158e51f1d0757604a0488d"
+    },
+    {
+      "frame_id": "frame_000002",
+      "path": "frames/frame_000002.png",
+      "index": 2,
+      "timestamp_ms": 1000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:d3c7fbbfbda639cd5a835f35936aa8733733b0b08e394c34d5f3a05a63118ff4"
+    },
+    {
+      "frame_id": "frame_000003",
+      "path": "frames/frame_000003.png",
+      "index": 3,
+      "timestamp_ms": 2000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:29e7865a1f0211c1131a48cfc5dea999fb2162a199f489d3bdd0f54117469382"
+    },
+    {
+      "frame_id": "frame_000004",
+      "path": "frames/frame_000004.png",
+      "index": 4,
+      "timestamp_ms": 3000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:8f8be2018e9ff417d3d97399690bfe1c476ce90fb024e80545fbb181d3f1a6b0"
+    },
+    {
+      "frame_id": "frame_000005",
+      "path": "frames/frame_000005.png",
+      "index": 5,
+      "timestamp_ms": 4000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:a89cc6dce396a4d1a033800e3a81fae73496b4928bb65006c6fe4c9b33a97f74"
+    },
+    {
+      "frame_id": "frame_000006",
+      "path": "frames/frame_000006.png",
+      "index": 6,
+      "timestamp_ms": 5000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:5268c8432bf157ed1d588213c627e6567e5a8e295edb75e88a00d95a0e0effb2"
+    },
+    {
+      "frame_id": "frame_000007",
+      "path": "frames/frame_000007.png",
+      "index": 7,
+      "timestamp_ms": 6000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:6388cd38e6ce92a506061ebff31949383694d59b644c08dfa95072479053ace4"
+    },
+    {
+      "frame_id": "frame_000008",
+      "path": "frames/frame_000008.png",
+      "index": 8,
+      "timestamp_ms": 7000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:42f96313beac5a9b0efb0c44523f28a448a26ecbe17b683b68b0f5148cbc2346"
+    },
+    {
+      "frame_id": "frame_000009",
+      "path": "frames/frame_000009.png",
+      "index": 9,
+      "timestamp_ms": 8000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:d41a4593c349e63cf58284be81a90ed890db64eaa96b3dbdf4386da921318902"
+    },
+    {
+      "frame_id": "frame_000010",
+      "path": "frames/frame_000010.png",
+      "index": 10,
+      "timestamp_ms": 9000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:36c9857083237d4d086053d86ba9b5c5115b7d5e8734205ca85b53a2531c0d28"
+    },
+    {
+      "frame_id": "frame_000011",
+      "path": "frames/frame_000011.png",
+      "index": 11,
+      "timestamp_ms": 10000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:6069535e3ce95a7100ea9bb0587825f794478260c5f67857d2cb79264897f293"
+    },
+    {
+      "frame_id": "frame_000012",
+      "path": "frames/frame_000012.png",
+      "index": 12,
+      "timestamp_ms": 11000,
+      "width": 1280,
+      "height": 720,
+      "sha256": "sha256:0c797064fc2225fcdf3da1fad4964062df2be2cb38645042cf51ae28d576a5d9"
+    }
+  ]
+}

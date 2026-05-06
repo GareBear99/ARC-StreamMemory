@@ -1,0 +1,47 @@
+{
+  "schema": "arc.streammemory.seed_spine.v1",
+  "created_at": "2026-05-06T14:15:07+00:00",
+  "session_id": "stream_2be43a729d6d5322",
+  "root_seed": "sha256:d535e669902bfa806baebe3e7a8f81ee043ad9759e9809ce58f8fddae249b48e",
+  "policy_hash": "sha256:139dbb0e1d63c2c1fcef082e095e9c0d86e643faeaae30c5e6dafbe74db015d6",
+  "frame_schedule_hash": "sha256:8c94968c67ad89e5d8ce3004d92345544b6cfb508187b927f78a216d00b92d24",
+  "ordered_frame_hash": "sha256:ecdb25a5aa97f14939ed7966a4f20e3fcf77633d39634cbf2d61748122612d93",
+  "chunk_hash": "sha256:14744f3f0d89e16a6d5056151ae962ef6020fc89474db784dcd7df370ec28b0f",
+  "deterministic_replay": {
+    "frame_count": 12,
+    "frame_order": [
+      "frame_000001",
+      "frame_000002",
+      "frame_000003",
+      "frame_000004",
+      "frame_000005",
+      "frame_000006",
+      "frame_000007",
+      "frame_000008",
+      "frame_000009",
+      "frame_000010",
+      "frame_000011",
+      "frame_000012"
+    ],
+    "timestamps_ms": [
+      0,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6000,
+      7000,
+      8000,
+      9000,
+      10000,
+      11000
+    ]
+  },
+  "source_spine": {
+    "arc_core_receipts": "receipts/arc_receipts.jsonl",
+    "omnibinary_chunk_map": "omnibinary/chunk_map.json",
+    "arcrar_bundle_manifest": "arcrar/bundle_manifest.json",
+    "module_attachment": "memory/module_attachment.json"
+  }
+}
