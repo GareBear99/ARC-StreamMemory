@@ -1,1 +1,1 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"ARC StreamMemory Seed Spine","type":"object","required":["schema","root_seed","policy_hash","frame_schedule_hash","ordered_frame_hash","chunk_hash"]}
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Seed Spine","type":"object","required":["schema","root_seed","policy_hash","frame_schedule_hash","ordered_frame_hash","chunk_hash"]}

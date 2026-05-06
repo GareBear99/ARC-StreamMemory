@@ -1,11 +1,57 @@
 [
-  {"name":"ARC-Core","url":"https://github.com/GareBear99/ARC-Core","role":"authority receipts"},
-  {"name":"omnibinary-runtime","url":"https://github.com/GareBear99/omnibinary-runtime","role":"binary memory spine"},
-  {"name":"Arc-RAR","url":"https://github.com/GareBear99/Arc-RAR","role":"archive bundle"},
-  {"name":"ARC-Neuron-LLMBuilder","url":"https://github.com/GareBear99/ARC-Neuron-LLMBuilder","role":"AI memory builder reference"},
-  {"name":"Seeded-Universe-Recreation-Engine","url":"https://github.com/GareBear99/Seeded-Universe-Recreation-Engine","role":"seeded source-spine storage reference"},
-  {"name":"ARC-AudioBench","url":"https://github.com/GareBear99/ARC-AudioBench","role":"evidence methodology companion"},
-  {"name":"FreeEQ8","url":"https://github.com/GareBear99/FreeEQ8","role":"plugin screen-memory target"},
-  {"name":"FreeVox8","url":"https://github.com/GareBear99/FreeVox8","role":"spectral plugin target"},
-  {"name":"Voxel Audio","url":"https://github.com/GareBear99/Voxel_Audio","role":"visual/audio router reference"}
+  {
+    "name": "ARC-Core",
+    "url": "https://github.com/GareBear99/ARC-Core",
+    "role": "authority receipts"
+  },
+  {
+    "name": "omnibinary-runtime",
+    "url": "https://github.com/GareBear99/omnibinary-runtime",
+    "role": "binary memory spine"
+  },
+  {
+    "name": "Arc-RAR",
+    "url": "https://github.com/GareBear99/Arc-RAR",
+    "role": "archive bundle"
+  },
+  {
+    "name": "ARC-Neuron-LLMBuilder",
+    "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder",
+    "role": "AI memory builder reference"
+  },
+  {
+    "name": "Seeded-Universe-Recreation-Engine",
+    "url": "https://github.com/GareBear99/Seeded-Universe-Recreation-Engine",
+    "role": "seeded source-spine storage reference"
+  },
+  {
+    "name": "ARC-AudioBench",
+    "url": "https://github.com/GareBear99/ARC-AudioBench",
+    "role": "evidence methodology companion"
+  },
+  {
+    "name": "FreeEQ8",
+    "url": "https://github.com/GareBear99/FreeEQ8",
+    "role": "plugin screen-memory target"
+  },
+  {
+    "name": "FreeVox8",
+    "url": "https://github.com/GareBear99/FreeVox8",
+    "role": "spectral plugin target"
+  },
+  {
+    "name": "Voxel Audio",
+    "url": "https://github.com/GareBear99/Voxel_Audio",
+    "role": "visual/audio router reference"
+  },
+  {
+    "name": "Instrudio",
+    "url": "https://github.com/GareBear99/Instrudio",
+    "role": "Web Audio/instrument runtime target"
+  },
+  {
+    "name": "ARC-FusionCapture",
+    "url": "planned:ARC-FusionCapture",
+    "role": "planned FFmpeg/camera/sensor orchestration layer for robotics-ready visual memory"
+  }
 ]

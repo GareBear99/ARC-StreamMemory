@@ -1,7 +1,26 @@
 {
   "name": "ARC-StreamMemory",
-  "version": "1.1.0",
-  "created_at": "2026-05-06T14:15:20+00:00",
-  "status": "seeded source-spine fixed package",
-  "files": 56
+  "version": "2.1.0",
+  "created_at": "2026-05-06T17:40:12+00:00",
+  "status": "complete public source package",
+  "files": 76,
+  "features": [
+    "snapshot ingest",
+    "video ingest via ffmpeg",
+    "demo session",
+    "memory spine",
+    "seed spine",
+    "AI digest",
+    "module attachment",
+    "viewer",
+    "validation",
+    "bundle export"
+  ],
+  "ffmpeg_fusion_capture_update": {
+    "regular_ffmpeg_supported": true,
+    "fusion_capture_adapter": true,
+    "sensor_sync_scaffold": true,
+    "native_robotics_runtime_complete": false
+  },
+  "updated_at": "2026-05-06T17:47:19+00:00"
 }

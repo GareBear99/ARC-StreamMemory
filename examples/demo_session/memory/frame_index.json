@@ -1,8 +1,8 @@
 {
-  "schema": "arc.streammemory.frame_index.v1",
-  "session_id": "stream_2be43a729d6d5322",
+  "schema": "arc.streammemory.frame_index.v2",
+  "session_id": "stream_013579f380625f4e",
   "title": "ARC-StreamMemory demo visual memory",
-  "created_at": "2026-05-06T14:15:00+00:00",
+  "created_at": "2026-05-06T17:40:00+00:00",
   "frame_count": 12,
   "frames": [
     {

@@ -1,0 +1,12 @@
+[project]
+name = "arc-streammemory"
+version = "2.1.0"
+description = "Local-first visual second brain for AI-readable video, frames, snapshots, seeded source-spine memory, and module attachments."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Gary Doman / TizWildin Entertainment" }]
+keywords = ["ai-memory", "visual-memory", "video", "frame-sampling", "multimodal", "visual-rag", "omnibinary", "arc-rar", "seeded-runtime"]
+
+[tool.setuptools]
+packages = ["scripts"]

@@ -1,3 +1,9 @@
 # Source Spine Replay Model
 
-The source spine lets a viewer or AI walk from session root seed to chunk, frame, event receipt, module attachment, and archive manifest.
+The source spine lets an AI or viewer traverse:
+
+```text
+root_seed → chunk → frame → event → receipt → module_attachment
+```
+
+The AI can inspect digest first, then request exact frames by ID/hash.

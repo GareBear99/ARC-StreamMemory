@@ -1,0 +1,16 @@
+{
+  "schema": "arc.streammemory.ai_digest.v1",
+  "created_at": "2026-05-06T17:40:05+00:00",
+  "session_id": "stream_013579f380625f4e",
+  "title": "ARC-StreamMemory demo visual memory",
+  "frame_count": 12,
+  "event_count": 5,
+  "keyframes": [
+    "frame_000001",
+    "frame_000003",
+    "frame_000006",
+    "frame_000009",
+    "frame_000012"
+  ],
+  "digest_hash": "sha256:babae3b0819dcf69570b6506899df3973c46cc16cfb51c1b56f6f33d57dee3cb"
+}

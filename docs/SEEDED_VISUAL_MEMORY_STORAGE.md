@@ -1,9 +1,14 @@
 # Seeded Visual Memory Storage
 
-ARC-StreamMemory v1.1.0 stores visual sessions through deterministic seeded source-spine metadata.
+The root seed is derived from:
 
 ```text
-capture_policy_hash + frame_schedule_hash + ordered_frame_hash + chunk_hash = root_seed
+capture_policy_hash
++ source_fingerprint
++ frame_schedule_hash
++ ordered_frame_hash
++ chunk_hash
+= root_seed
 ```
 
-This gives AI memory a reproducible source spine rather than loose screenshots.
+This makes the visual session reproducible, traceable, and verifiable.

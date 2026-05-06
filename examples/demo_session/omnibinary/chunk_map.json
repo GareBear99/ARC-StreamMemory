@@ -1,10 +1,10 @@
 {
-  "schema": "arc.streammemory.omnibinary_chunk_map.v1",
-  "session_id": "stream_2be43a729d6d5322",
+  "schema": "arc.streammemory.omnibinary_chunk_map.v2",
+  "session_id": "stream_013579f380625f4e",
   "chunks": [
     {
       "chunk_id": "chunk_000001",
-      "spine_pointer": "ob://visual/stream_2be43a729d6d5322/chunk_000001",
+      "spine_pointer": "ob://visual/stream_013579f380625f4e/chunk_000001",
       "frame_refs": [
         "frame_000001",
         "frame_000002",
@@ -19,6 +19,8 @@
         "frame_000011",
         "frame_000012"
       ],
+      "start_ms": 0,
+      "end_ms": 11000,
       "hash": "sha256:dff0c4cc248722accc5393c1e04c64bc645ef441c1a96187f3460457eb9ab567"
     }
   ]

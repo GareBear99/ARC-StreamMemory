@@ -1,31 +1,35 @@
 {
-  "schema": "arc.streammemory.memory_spine.v1",
-  "created_at": "2026-05-06T14:15:04+00:00",
-  "root_hash": "sha256:4fbec11989a4606b0b9168e258100a550fa16e3b486af8a3591aac103430fb0e",
+  "schema": "arc.streammemory.memory_spine.v2",
+  "created_at": "2026-05-06T17:40:02+00:00",
+  "root_hash": "sha256:e7a9c0fe82feb906248fd079153a118dfea9e1c7d5dc0cbffde59e1157e304fa",
   "entries": [
     {
       "path": "memory/frame_index.json",
-      "sha256": "sha256:27288d2c1fdca95f90d3b43c6b18751664f39749dfec667879a282186c866e05"
+      "sha256": "sha256:bac867d50747e71c8e068dd296b9b90e4954ddc7c6261e311f8c41c3234e313f"
     },
     {
       "path": "memory/event_timeline.jsonl",
       "sha256": "sha256:ce6d72382a06b2b9314593c0ebc6c85232bd86fb5a2828232c369646662066c8"
     },
     {
+      "path": "memory/ocr_index.jsonl",
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "memory/module_attachment.json",
-      "sha256": "sha256:90c90c921f22dfeae58a012762cc9a26790a36bbcb42843dbc090c555ce0c29c"
+      "sha256": "sha256:1f47a2f01e93e24edad33fdca7669f00361e9e47ccfe783d26d451eef57fe1c0"
     },
     {
       "path": "receipts/arc_receipts.jsonl",
-      "sha256": "sha256:d74fb0f2ac3d9086d0fcab6d57dc8f5347dcf08c4d67d0e5fcc52ac31bc5bf7f"
+      "sha256": "sha256:1f835d26f13b3cd076fd61f139d1461560969dc7c4ecb8a0f7e8597752c57b30"
     },
     {
       "path": "omnibinary/chunk_map.json",
-      "sha256": "sha256:380c079455017812a62869327d9580cca269130f6a7e427a3ef1835e7e21fd81"
+      "sha256": "sha256:4b7629fdb168206b4627a8697b07c59fcc92f5731a0cf86487db94921a0f81f3"
     },
     {
       "path": "arcrar/bundle_manifest.json",
-      "sha256": "sha256:5509a7fdbb0b9face27068528ea2ddae6d80c0f6a59dffad9212c18972a02ea4"
+      "sha256": "sha256:242b29ebc4e96512155dd21891ab31abc1a93a1fe61302e74122203d2f8277ee"
     }
   ]
 }

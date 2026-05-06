@@ -1,12 +1,18 @@
 cff-version: 1.2.0
 message: "If you use ARC-StreamMemory, please cite it."
-title: "ARC-StreamMemory: Seeded source-spine visual second brain for AI systems"
+title: "ARC-StreamMemory: Local-first seeded visual memory spine for AI systems"
 authors:
   - family-names: "Doman"
     given-names: "Gary"
     alias: "GareBear99 / TizWildin"
-version: "1.1.0"
+version: "2.1.0"
 date-released: "2026-05-06"
 url: "https://github.com/GareBear99/ARC-StreamMemory"
 repository-code: "https://github.com/GareBear99/ARC-StreamMemory"
 license: "MIT"
+keywords:
+  - AI visual memory
+  - visual second brain
+  - seeded source spine
+  - visual RAG
+  - reproducible video memory

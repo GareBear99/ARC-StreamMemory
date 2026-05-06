@@ -1,1 +1,1 @@
-{"type":"object","required":["root_hash"]}
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Memory Spine","type":"object","required":["schema","root_hash","entries"]}

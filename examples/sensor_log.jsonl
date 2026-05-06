@@ -1,0 +1,4 @@
+{"timestamp_ms":0,"pose":{"x":0.0,"y":0.0,"z":0.0,"yaw":0.0},"robot_state":{"mode":"inspection","battery":99}}
+{"timestamp_ms":1000,"pose":{"x":0.2,"y":0.0,"z":0.0,"yaw":4.0},"robot_state":{"mode":"inspection","battery":98}}
+{"timestamp_ms":2000,"pose":{"x":0.4,"y":0.1,"z":0.0,"yaw":7.0},"robot_state":{"mode":"inspection","battery":98}}
+{"timestamp_ms":3000,"pose":{"x":0.7,"y":0.1,"z":0.0,"yaw":11.0},"robot_state":{"mode":"inspection","battery":97}}

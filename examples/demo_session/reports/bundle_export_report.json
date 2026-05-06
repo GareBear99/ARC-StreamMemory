@@ -1,6 +1,6 @@
 {
-  "schema": "arc.streammemory.bundle_export_report.v1",
-  "created_at": "2026-05-06T14:15:14+00:00",
+  "schema": "arc.streammemory.bundle_export_report.v2",
+  "created_at": "2026-05-06T17:40:09+00:00",
   "bundle": "release_evidence/demo_streammemory_bundle.zip",
-  "sha256": "sha256:02040ef4e8eeafbac1323b5d29ba72e9a087013afaaa092110b8c030d64bcf80"
+  "sha256": "sha256:f68e3f8ea79e556a77aa67084b339f7212b53be683e375ef5b2944c0826da671"
 }

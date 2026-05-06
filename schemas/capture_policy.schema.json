@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARC StreamMemory Capture Policy",
+  "type": "object",
+  "required": [
+    "capture_mode",
+    "ai_frame_rate",
+    "privacy"
+  ],
+  "properties": {
+    "capture_mode": {
+      "type": "string"
+    },
+    "fusion_mode": {
+      "type": "string"
+    },
+    "ai_frame_rate": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "raw_video_retained": {
+      "type": "boolean"
+    },
+    "memory_tier": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "ffmpeg": {
+      "type": "object"
+    },
+    "privacy": {
+      "type": "object"
+    }
+  }
+}

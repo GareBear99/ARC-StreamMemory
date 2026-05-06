@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARC FusionCapture Robotics Session",
+  "type": "object",
+  "required": [
+    "session_id",
+    "capture_policy",
+    "sensor_sync"
+  ],
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "capture_policy": {
+      "type": "string"
+    },
+    "sensor_sync": {
+      "type": "string"
+    },
+    "robotics_mode": {
+      "type": "string"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 [
   {
     "path": "README.md",
-    "bytes": 2932
+    "bytes": 5121
   },
   {
     "path": "VERSION",
@@ -16,104 +16,252 @@
     "bytes": 15
   },
   {
+    "path": "pyproject.toml",
+    "bytes": 515
+  },
+  {
     "path": "CITATION.cff",
-    "bytes": 432
+    "bytes": 555
   },
   {
     "path": "QUICKSTART.md",
-    "bytes": 441
-  },
-  {
-    "path": "docs/SEEDED_VISUAL_MEMORY_STORAGE.md",
-    "bytes": 313
-  },
-  {
-    "path": "docs/SOURCE_SPINE_REPLAY_MODEL.md",
-    "bytes": 167
+    "bytes": 677
   },
   {
     "path": "docs/ARCHITECTURE.md",
-    "bytes": 187
+    "bytes": 361
   },
   {
-    "path": "scripts/common.py",
-    "bytes": 1024
+    "path": "docs/SEEDED_VISUAL_MEMORY_STORAGE.md",
+    "bytes": 257
+  },
+  {
+    "path": "docs/SOURCE_SPINE_REPLAY_MODEL.md",
+    "bytes": 236
+  },
+  {
+    "path": "docs/AI_MODULE_ATTACHMENT.md",
+    "bytes": 208
+  },
+  {
+    "path": "docs/VIEWER_DESIGN.md",
+    "bytes": 160
+  },
+  {
+    "path": "docs/PRIVACY_AND_PERMISSIONS.md",
+    "bytes": 210
+  },
+  {
+    "path": "docs/INTEGRATION_GATES.md",
+    "bytes": 377
+  },
+  {
+    "path": "docs/SEO_LAUNCH_PLAN.md",
+    "bytes": 472
+  },
+  {
+    "path": "docs/REPO_REFERENCE_MAP.md",
+    "bytes": 1011
+  },
+  {
+    "path": "docs/FFMPEG_BACKEND.md",
+    "bytes": 1138
+  },
+  {
+    "path": "docs/ARC_FUSION_CAPTURE_INTEGRATION.md",
+    "bytes": 864
+  },
+  {
+    "path": "docs/ROBOTICS_CAPTURE_MODES.md",
+    "bytes": 581
+  },
+  {
+    "path": "docs/SENSOR_SYNC_MODEL.md",
+    "bytes": 687
+  },
+  {
+    "path": "docs/MEMORY_TIERS.md",
+    "bytes": 472
+  },
+  {
+    "path": "docs/HARDWARE_ACCELERATION.md",
+    "bytes": 434
+  },
+  {
+    "path": "docs/FFMPEG_FUSIONCAPTURE_AUDIT.md",
+    "bytes": 717
   },
   {
     "path": "scripts/__init__.py",
     "bytes": 0
   },
   {
+    "path": "scripts/common.py",
+    "bytes": 1024
+  },
+  {
     "path": "scripts/create_demo_session.py",
-    "bytes": 1605
+    "bytes": 1607
+  },
+  {
+    "path": "scripts/ingest_snapshot_folder.py",
+    "bytes": 1093
+  },
+  {
+    "path": "scripts/ingest_video.py",
+    "bytes": 1123
   },
   {
     "path": "scripts/build_stream_memory.py",
-    "bytes": 3913
+    "bytes": 4414
   },
   {
     "path": "scripts/hash_memory_spine.py",
-    "bytes": 994
+    "bytes": 1019
   },
   {
     "path": "scripts/build_seed_spine.py",
-    "bytes": 1778
+    "bytes": 1784
+  },
+  {
+    "path": "scripts/build_ai_digest.py",
+    "bytes": 1886
   },
   {
     "path": "scripts/derive_session_seed.py",
-    "bytes": 403
+    "bytes": 413
+  },
+  {
+    "path": "scripts/verify_source_spine.py",
+    "bytes": 537
   },
   {
     "path": "scripts/validate_memory_bundle.py",
-    "bytes": 1588
+    "bytes": 1659
   },
   {
     "path": "scripts/make_bundle.py",
-    "bytes": 855
+    "bytes": 862
   },
   {
     "path": "scripts/validate_repo.py",
-    "bytes": 941
+    "bytes": 1661
   },
   {
-    "path": "schemas/seed_spine.schema.json",
-    "bytes": 217
+    "path": "scripts/ffmpeg_probe.py",
+    "bytes": 1430
+  },
+  {
+    "path": "scripts/build_capture_policy.py",
+    "bytes": 1555
+  },
+  {
+    "path": "scripts/fusion_capture_adapter.py",
+    "bytes": 2353
+  },
+  {
+    "path": "scripts/sync_sensor_log.py",
+    "bytes": 2032
   },
   {
     "path": "schemas/module_attachment.schema.json",
-    "bytes": 69
+    "bytes": 267
   },
   {
     "path": "schemas/frame_index.schema.json",
-    "bytes": 40
+    "bytes": 155
+  },
+  {
+    "path": "schemas/seed_spine.schema.json",
+    "bytes": 200
   },
   {
     "path": "schemas/memory_spine.schema.json",
-    "bytes": 43
+    "bytes": 142
+  },
+  {
+    "path": "schemas/capture_policy.schema.json",
+    "bytes": 658
+  },
+  {
+    "path": "schemas/sensor_frame.schema.json",
+    "bytes": 432
+  },
+  {
+    "path": "schemas/robotics_session.schema.json",
+    "bytes": 442
   },
   {
     "path": "viewer/index.html",
-    "bytes": 417
+    "bytes": 805
   },
   {
     "path": "viewer/style.css",
-    "bytes": 572
+    "bytes": 761
   },
   {
     "path": "viewer/viewer.js",
-    "bytes": 1081
+    "bytes": 1895
   },
   {
     "path": "data/repo_references.json",
-    "bytes": 1056
+    "bytes": 1561
   },
   {
     "path": "data/seo_keywords.json",
-    "bytes": 213
+    "bytes": 536
+  },
+  {
+    "path": "examples/sensor_log.jsonl",
+    "bytes": 454
   },
   {
     "path": "release_evidence/demo_streammemory_bundle.zip",
-    "bytes": 60109
+    "bytes": 61179
+  },
+  {
+    "path": "release_evidence/source_inventory.json",
+    "bytes": 5778
+  },
+  {
+    "path": "release_evidence/ARC_STREAMMEMORY_RELEASE_MANIFEST.json",
+    "bytes": 628
+  },
+  {
+    "path": ".github/pull_request_template.md",
+    "bytes": 123
+  },
+  {
+    "path": ".github/workflows/validate.yml",
+    "bytes": 839
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "bytes": 217
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+    "bytes": 233
+  },
+  {
+    "path": "integrations/arc_core/push_receipts.py",
+    "bytes": 137
+  },
+  {
+    "path": "integrations/omnibinary/write_chunks.py",
+    "bytes": 124
+  },
+  {
+    "path": "integrations/arc_rar/export_arcrar.py",
+    "bytes": 118
+  },
+  {
+    "path": "integrations/arc_fusion_capture/README.md",
+    "bytes": 433
+  },
+  {
+    "path": "integrations/arc_fusion_capture/profile_presets.json",
+    "bytes": 468
   },
   {
     "path": "examples/demo_session/frames/frame_000001.png",
@@ -180,24 +328,36 @@
     "bytes": 1198
   },
   {
+    "path": "examples/demo_session/memory/ocr_index.jsonl",
+    "bytes": 0
+  },
+  {
     "path": "examples/demo_session/memory/module_attachment.json",
-    "bytes": 1001
+    "bytes": 1216
   },
   {
     "path": "examples/demo_session/memory/memory_spine.json",
-    "bytes": 1089
+    "bytes": 1232
   },
   {
     "path": "examples/demo_session/memory/seed_spine.json",
     "bytes": 1383
   },
   {
+    "path": "examples/demo_session/memory/ai_digest.md",
+    "bytes": 784
+  },
+  {
+    "path": "examples/demo_session/memory/ai_digest.json",
+    "bytes": 440
+  },
+  {
     "path": "examples/demo_session/receipts/arc_receipts.jsonl",
-    "bytes": 2975
+    "bytes": 3009
   },
   {
     "path": "examples/demo_session/omnibinary/chunk_map.json",
-    "bytes": 648
+    "bytes": 692
   },
   {
     "path": "examples/demo_session/arcrar/bundle_manifest.json",
@@ -210,17 +370,5 @@
   {
     "path": "examples/demo_session/reports/bundle_export_report.json",
     "bytes": 252
-  },
-  {
-    "path": ".github/workflows/validate.yml",
-    "bytes": 729
-  },
-  {
-    "path": "scripts/__pycache__/__init__.cpython-313.pyc",
-    "bytes": 156
-  },
-  {
-    "path": "scripts/__pycache__/common.cpython-313.pyc",
-    "bytes": 3034
   }
 ]

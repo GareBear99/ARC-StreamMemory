@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "ai_fps": 2,
+    "memory_tier": 1,
+    "raw_video_retained": false
+  },
+  "inspection": {
+    "ai_fps": 2,
+    "memory_tier": 2,
+    "raw_video_retained": false
+  },
+  "blackbox": {
+    "ai_fps": 1,
+    "memory_tier": 2,
+    "raw_video_retained": true
+  },
+  "training": {
+    "ai_fps": 5,
+    "memory_tier": 3,
+    "raw_video_retained": true
+  },
+  "snapshot": {
+    "ai_fps": null,
+    "memory_tier": 1,
+    "raw_video_retained": false
+  }
+}

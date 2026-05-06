@@ -1,1 +1,1 @@
-{"type":"object","required":["module_attachment_type","session_id"]}
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"ARC Visual Memory Module Attachment","type":"object","required":["schema","module_attachment_type","session_id","title","frame_index","event_timeline","receipts","omnibinary_chunk_map","seed_spine"]}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARC FusionCapture Sensor Frame",
+  "type": "object",
+  "required": [
+    "timestamp_ms"
+  ],
+  "properties": {
+    "timestamp_ms": {
+      "type": "number"
+    },
+    "frame_id": {
+      "type": "string"
+    },
+    "pose": {
+      "type": "object"
+    },
+    "robot_state": {
+      "type": "object"
+    },
+    "camera": {
+      "type": "string"
+    }
+  }
+}

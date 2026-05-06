@@ -1,41 +1,73 @@
 # ARC-StreamMemory
 
-**ARC-StreamMemory** is a local-first visual second brain for AI systems.
+**ARC-StreamMemory** is a local-first visual second brain for AI systems: video, screen recordings, screenshots, DAW/plugin sessions, game footage, browser work, terminal output, and app UI states become deterministic, cryptographically hashed, AI-readable memory modules.
 
-It converts video, screen recordings, DAW/plugin captures, app footage, and image snapshots into reproducible visual memory: sampled frames, hashes, source-spine metadata, ARC-style receipts, OmniBinary-style chunk maps, Arc-RAR-style bundle manifests, and AI module attachments.
+It is designed for the GareBear99 / TizWildin / ARC ecosystem:
 
-## v1.1.0 seeded source-spine model
+- **ARC-Core** — authority, receipts, and event truth
+- **OmniBinary Runtime** — binary-addressable memory spine and chunk ledger
+- **Arc-RAR** — portable archive / restore bundle
+- **ARC-Neuron-LLMBuilder** — local AI memory and governed build loop
+- **Seeded-Universe-Recreation-Engine** — deterministic seeded source-spine reference
+- **ARC-AudioBench** — benchmark/evidence methodology companion
+- **FreeEQ8 / FreeVox8 / Voxel Audio / Instrudio** — target sessions for plugin, visualizer, and instrument memory
 
-This package adds seeded visual-memory storage inspired by the Seeded-Universe-Recreation-Engine source-spine model:
+---
+
+## What it does
 
 ```text
-root seed
-→ capture policy
-→ source fingerprint
-→ deterministic frame schedule
-→ ordered frame hashes
-→ chunk hashes
-→ session root hash
-→ OmniBinary-style spine pointer
+visual source
+→ video or snapshot ingest
+→ chosen AI frame-speed schedule
+→ frame hashes
+→ seeded source spine
+→ OCR-ready/event-ready timeline
+→ AI digest
+→ ARC receipts
+→ OmniBinary-style chunk map
 → Arc-RAR-style bundle manifest
-→ ARC-Core-style receipts
+→ local source-spine viewer
+→ AI module attachment JSON
 ```
+
+---
+
+## Modes
+
+| Mode | Status | Purpose |
+|---|---:|---|
+| Demo generated frames | ✅ complete | deterministic proof session |
+| Snapshot folder ingest | ✅ complete | turn screenshots/images into AI memory |
+| Video frame ingest | ✅ complete if `ffmpeg` installed | sample video at chosen FPS |
+| AI digest generation | ✅ complete | AI-readable summary with frame/event refs |
+| Seeded source spine | ✅ complete | root seed, schedule hash, chunk hash, frame hash lineage |
+| Local viewer | ✅ complete | inspect frames, digest, events, hashes, attachment |
+| ARC-Core integration | ✅ export/client scaffold | push receipts/module metadata later |
+| OmniBinary integration | ✅ export/client scaffold | write/read chunk maps later |
+| Arc-RAR integration | ✅ export/client scaffold | native bundle adapter later |
+| Live screen recording | 🚧 integration gate | documented next step |
+| OCR engine | 🚧 integration gate | placeholder/index format ready |
+| Privacy redaction | 🚧 integration gate | policy + redaction log format ready |
+
+---
 
 ## Quickstart
 
 ```bash
-python3 scripts/create_demo_session.py
-python3 scripts/build_stream_memory.py examples/demo_session --title "Demo visual memory"
-python3 scripts/hash_memory_spine.py examples/demo_session
-python3 scripts/build_seed_spine.py examples/demo_session
-python3 scripts/validate_memory_bundle.py examples/demo_session
-python3 scripts/make_bundle.py examples/demo_session --out release_evidence/demo_streammemory_bundle.zip
+python scripts/create_demo_session.py
+python scripts/build_stream_memory.py examples/demo_session --title "ARC demo visual memory"
+python scripts/hash_memory_spine.py examples/demo_session
+python scripts/build_seed_spine.py examples/demo_session
+python scripts/build_ai_digest.py examples/demo_session
+python scripts/validate_memory_bundle.py examples/demo_session
+python scripts/make_bundle.py examples/demo_session --out release_evidence/demo_streammemory_bundle.zip
 ```
 
 Open viewer:
 
 ```bash
-python3 -m http.server 8080
+python -m http.server 8080
 ```
 
 Then open:
@@ -44,22 +76,67 @@ Then open:
 http://localhost:8080/viewer/index.html?session=../examples/demo_session/memory/module_attachment.json
 ```
 
-## Ecosystem references
+---
 
-- [ARC-Core](https://github.com/GareBear99/ARC-Core) — authority/receipt layer
-- [omnibinary-runtime](https://github.com/GareBear99/omnibinary-runtime) — binary memory/source-spine reference
-- [Arc-RAR](https://github.com/GareBear99/Arc-RAR) — portable archive/evidence bundle reference
-- [ARC-Neuron-LLMBuilder](https://github.com/GareBear99/ARC-Neuron-LLMBuilder) — local AI memory/build governance reference
-- [ARC-AudioBench](https://github.com/GareBear99/ARC-AudioBench) — benchmark/evidence methodology companion
-- [Seeded-Universe-Recreation-Engine](https://github.com/GareBear99/Seeded-Universe-Recreation-Engine) — seeded replay/source-spine storage reference
-- [FreeEQ8](https://github.com/GareBear99/FreeEQ8) — DAW/plugin visual-memory target
-- [FreeVox8](https://github.com/GareBear99/FreeVox8) — spectral plugin visual-memory target
-- [Voxel Audio](https://github.com/GareBear99/Voxel_Audio) — visual/audio routing reference
-- [awesome-audio-plugins-dev](https://github.com/GareBear99/awesome-audio-plugins-dev) — Start Here technical list
-- [awesome-python-audio-science](https://github.com/GareBear99/awesome-python-audio-science) — research/citation bridge
+## Video ingest
 
-## Honest status
+```bash
+python scripts/ingest_video.py input.mp4 --fps 1 --out sessions/video_memory
+python scripts/build_stream_memory.py sessions/video_memory --title "Video memory"
+python scripts/build_seed_spine.py sessions/video_memory
+python scripts/build_ai_digest.py sessions/video_memory
+python scripts/validate_memory_bundle.py sessions/video_memory
+```
 
-Complete public source package for deterministic visual-memory session generation, indexing, seeded spine storage, validation, viewer output, and bundle export.
+Requires `ffmpeg` on PATH.
 
-Next integration gates: live screen capture, OCR, native Arc-RAR packaging, and full OmniBinary runtime ingestion.
+---
+
+## Snapshot folder ingest
+
+```bash
+python scripts/ingest_snapshot_folder.py ./screenshots --out sessions/snapshot_memory
+python scripts/build_stream_memory.py sessions/snapshot_memory --title "Snapshot memory"
+python scripts/build_seed_spine.py sessions/snapshot_memory
+python scripts/build_ai_digest.py sessions/snapshot_memory
+python scripts/validate_memory_bundle.py sessions/snapshot_memory
+```
+
+---
+
+## Output structure
+
+```text
+session/
+├─ frames/
+├─ memory/
+│  ├─ capture_policy.json
+│  ├─ frame_index.json
+│  ├─ event_timeline.jsonl
+│  ├─ ocr_index.jsonl
+│  ├─ ai_digest.md
+│  ├─ ai_digest.json
+│  ├─ module_attachment.json
+│  ├─ memory_spine.json
+│  ├─ seed_spine.json
+│  └─ session_summary.md
+├─ receipts/arc_receipts.jsonl
+├─ omnibinary/chunk_map.json
+├─ arcrar/bundle_manifest.json
+├─ reports/validation_report.json
+└─ reports/bundle_export_report.json
+```
+
+---
+
+## SEO positioning
+
+**ARC-StreamMemory** targets: AI visual memory, visual second brain, video memory for LLMs, screen recording for AI, local-first AI memory, visual RAG, deterministic visual memory, seeded source spine, cryptographic video archive, multimodal memory, frame sampling for AI, AI module attachments, and reproducible screen memory.
+
+---
+
+## Honest completion status
+
+This package is complete as a **public source release foundation** for deterministic visual memory: ingest, indexing, hashing, seeded spine storage, AI digest, module attachment, viewer, validation, and bundle export.
+
+Remaining integration gates are clearly separated: native live capture, OCR engine hookup, native OmniBinary persistence, native Arc-RAR packaging, and live ARC-Core API sync.
