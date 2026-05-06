@@ -4,21 +4,34 @@
     "visual second brain",
     "video memory for LLMs",
     "screen recording for AI",
-    "local-first AI memory"
+    "local-first multimodal memory"
   ],
-  "secondary": [
-    "visual RAG",
+  "ffmpeg": [
+    "FFmpeg frame sampling for AI",
+    "FFmpeg video memory",
+    "AI frame speed video sampling",
+    "regular FFmpeg visual memory"
+  ],
+  "robotics": [
+    "robotics camera memory",
+    "robot visual black box",
+    "sensor synced video memory",
+    "robotics visual replay"
+  ],
+  "source_spine": [
     "seeded source spine",
     "deterministic visual memory",
     "cryptographic video archive",
-    "multimodal memory module"
+    "binary-addressable memory",
+    "visual RAG"
   ],
-  "ffmpeg_fusion_capture": [
-    "FFmpeg AI memory",
-    "FFmpeg frame sampling",
-    "robotics video memory",
-    "sensor synced video",
-    "ARC-FusionCapture",
-    "hardware accelerated AI capture"
+  "ecosystem": [
+    "ARC-Core",
+    "OmniBinary",
+    "Arc-RAR",
+    "ARC-Neuron",
+    "ARC-AudioBench",
+    "GareBear99",
+    "TizWildin"
   ]
 }

@@ -10,7 +10,7 @@ def main():
         try: json.loads(p.read_text(encoding="utf-8"))
         except Exception as e: errors.append(f"Invalid JSON {p.relative_to(ROOT)}: {e}")
     readme=(ROOT/"README.md").read_text(encoding="utf-8")
-    for term in ["AI visual memory","visual second brain","ARC-Core","OmniBinary","Arc-RAR","Seeded-Universe-Recreation-Engine"]:
+    for term in ["AI visual memory","visual second brain","ARC-Core","OmniBinary","Arc-RAR","Seeded-Universe-Recreation-Engine","regular FFmpeg","ARC-FusionCapture","FreeEQ8","FreeVox8","awesome-python-audio-science"]:
         if term not in readme: errors.append(f"README missing {term}")
     if errors:
         print("Validation failed:"); print("\n".join("- "+e for e in errors)); raise SystemExit(1)

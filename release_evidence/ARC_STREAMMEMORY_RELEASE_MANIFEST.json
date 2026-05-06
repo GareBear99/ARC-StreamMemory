@@ -1,8 +1,8 @@
 {
   "name": "ARC-StreamMemory",
-  "version": "2.1.0",
-  "created_at": "2026-05-06T17:40:12+00:00",
-  "status": "complete public source package",
+  "version": "2.1.1",
+  "created_at": "2026-05-06T17:55:02Z",
+  "status": "public-facing SEO/readme maximized source package",
   "files": 76,
   "features": [
     "snapshot ingest",
@@ -22,5 +22,25 @@
     "sensor_sync_scaffold": true,
     "native_robotics_runtime_complete": false
   },
-  "updated_at": "2026-05-06T17:47:19+00:00"
+  "updated_at": "2026-05-06T17:47:19+00:00",
+  "repo_references": [
+    "https://github.com/GareBear99/ARC-Core",
+    "https://github.com/GareBear99/omnibinary-runtime",
+    "https://github.com/GareBear99/Arc-RAR",
+    "https://github.com/GareBear99/ARC-Neuron-LLMBuilder",
+    "https://github.com/GareBear99/ARC-AudioBench",
+    "https://github.com/GareBear99/Seeded-Universe-Recreation-Engine",
+    "https://github.com/GareBear99/FreeEQ8",
+    "https://github.com/GareBear99/FreeVox8",
+    "https://github.com/GareBear99/Voxel_Audio",
+    "https://github.com/GareBear99/Instrudio",
+    "https://github.com/GareBear99/awesome-audio-plugins-dev",
+    "https://github.com/GareBear99/awesome-audio-lists",
+    "https://github.com/GareBear99/awesome-python-audio-science",
+    "https://github.com/GareBear99/awesome-music-platforms",
+    "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+    "https://github.com/GareBear99/TizWildin-Release-Vault",
+    "planned:ARC-FusionCapture"
+  ],
+  "public_positioning": "Local-first visual second brain for AI-readable video, screen recordings, screenshots, robotics camera feeds, seeded source spines, and multimodal memory."
 }

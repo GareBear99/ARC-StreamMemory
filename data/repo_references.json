@@ -2,52 +2,82 @@
   {
     "name": "ARC-Core",
     "url": "https://github.com/GareBear99/ARC-Core",
-    "role": "authority receipts"
+    "role": "authority layer, receipts, event truth, source governance"
   },
   {
     "name": "omnibinary-runtime",
     "url": "https://github.com/GareBear99/omnibinary-runtime",
-    "role": "binary memory spine"
+    "role": "binary-addressable memory spine and chunk ledger inspiration"
   },
   {
     "name": "Arc-RAR",
     "url": "https://github.com/GareBear99/Arc-RAR",
-    "role": "archive bundle"
+    "role": "portable archive/restore bundle direction"
   },
   {
     "name": "ARC-Neuron-LLMBuilder",
     "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder",
-    "role": "AI memory builder reference"
-  },
-  {
-    "name": "Seeded-Universe-Recreation-Engine",
-    "url": "https://github.com/GareBear99/Seeded-Universe-Recreation-Engine",
-    "role": "seeded source-spine storage reference"
+    "role": "local AI memory, governed build loop, module attachment use case"
   },
   {
     "name": "ARC-AudioBench",
     "url": "https://github.com/GareBear99/ARC-AudioBench",
-    "role": "evidence methodology companion"
+    "role": "benchmark/evidence methodology companion"
+  },
+  {
+    "name": "Seeded-Universe-Recreation-Engine",
+    "url": "https://github.com/GareBear99/Seeded-Universe-Recreation-Engine",
+    "role": "seeded source-spine and deterministic replay storage model"
   },
   {
     "name": "FreeEQ8",
     "url": "https://github.com/GareBear99/FreeEQ8",
-    "role": "plugin screen-memory target"
+    "role": "DAW/plugin testing screen-memory target"
   },
   {
     "name": "FreeVox8",
     "url": "https://github.com/GareBear99/FreeVox8",
-    "role": "spectral plugin target"
+    "role": "spectral plugin and visual-memory benchmark target"
   },
   {
     "name": "Voxel Audio",
     "url": "https://github.com/GareBear99/Voxel_Audio",
-    "role": "visual/audio router reference"
+    "role": "audio-visual router/session target"
   },
   {
     "name": "Instrudio",
     "url": "https://github.com/GareBear99/Instrudio",
-    "role": "Web Audio/instrument runtime target"
+    "role": "Web Audio, MIDI, virtual instrument memory target"
+  },
+  {
+    "name": "awesome-audio-plugins-dev",
+    "url": "https://github.com/GareBear99/awesome-audio-plugins-dev",
+    "role": "Start Here technical discovery list"
+  },
+  {
+    "name": "awesome-audio-lists",
+    "url": "https://github.com/GareBear99/awesome-audio-lists",
+    "role": "root hub for audio/list/discovery resources"
+  },
+  {
+    "name": "awesome-python-audio-science",
+    "url": "https://github.com/GareBear99/awesome-python-audio-science",
+    "role": "research/citation bridge for Python audio science, MIR, DSP, ML audio"
+  },
+  {
+    "name": "awesome-music-platforms",
+    "url": "https://github.com/GareBear99/awesome-music-platforms",
+    "role": "artist/music platform discovery map"
+  },
+  {
+    "name": "TizWildinEntertainmentHUB",
+    "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+    "role": "public router for plugins, lists, packs, deconstructed loops, visualizers"
+  },
+  {
+    "name": "TizWildin-Release-Vault",
+    "url": "https://github.com/GareBear99/TizWildin-Release-Vault",
+    "role": "release surface for music assets, deconstructed loops, and packs"
   },
   {
     "name": "ARC-FusionCapture",
